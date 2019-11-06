@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Contact Us</h2>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Name</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
+  </div>
+  <textarea rows='15' cols='100' placeholder='Message'></textarea>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br>
+
+<h2>Stay Up To Date For New Product Releases</h2>
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Email Address" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
+  </form>
+</nav>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">PrettyBoy&Co</h5>
+        <p>Best Brand Out There. No Cap</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+        <!-- Links -->
+        <h5 class="text-uppercase">Follow Us!</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.instagram.com/prettyboyandco/">Instagram</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/PrettyboyandCo">Twitter</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/prettyboyandco/">Facebook</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://prettyboyandco.com/"> PrettyBoy&Co.com</a>
+  </div>
+</footer>
+
+{% endblock %}
